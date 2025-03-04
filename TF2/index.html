@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre mí</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenido a mi Portfolio</h1>
+        <p>Desarrollador Web | Frontend | JavaScript</p>
+    </section>
+
+ 
+    <section class="carousel-container">
+        <div class="carousel">
+            <img src="img/th (1).jpeg" alt="Descripción de la imagen 1" class="carousel-item active">
+            <img src="img/th (2).jpeg" alt="Descripción de la imagen 2" class="carousel-item">
+            <img src="img/th.jpeg" alt="Descripción de la imagen 3" class="carousel-item">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mi Nombre</p>
+    </footer>
+
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
